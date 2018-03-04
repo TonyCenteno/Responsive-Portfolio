@@ -1,72 +1,94 @@
 <!DOCTYPE>
 <html>
 <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>My Portfolio</title>
     <link rel="stylesheet" type="text/css" href="assets/reset.css">
     <link rel="stylesheet" type="text/css" href="assets/style.css">
+
 </head>
 <body>
-        <header>
-            <div class="content">
-                <div class="logo">
-                    <a href="index.html">Tony Centeno</a>
+    <header>
+        <div class="container">
+            <a href="#" id="logo">Tony Centeno</a>
+            <nav class="navdt">
+                <a href="index.html">About</a>
+                <a href="portfolio.html">Portfolio</a>
+                <a href="contact.html">Contact</a>
+            </nav>
+        </div>
+    </header>
+    <div class="subheader">
+        <div class="container">
+            <div class="navmb">
+                <a href="index.html">About</a>
+                <a href="portfolio.html">Portfolio</a>
+                <a href="contact.html">Contact</a>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="main portfolio">
+            <div class="title">
+                <h1>Portfolio</h1>
+            </div>
+            <div class="row">
+                <div class="portcontent left hangman">
+                    <img src="assets/images/1.jpg">
+                    <h3 class="text-center card-title">
+                        <a class="text-white" href="#">Hangman</a>
+                    </h3>
                 </div>
-                <nav>
-                    <ul>
-                        <li><a href="index.html">About</a></li>
-                        <li><a href="portfolio.html">Portfolio</a></li>
-                        <li><a href="contact.html">Contact</a></li>
-                    </ul>
-                </nav>
+                <div class="portcontent right rpg">
+                    <img src="assets/images/1.jpg">
+                    <h3 class="text-center card-title">
+                        <a class="text-white" href="#">RPG Game</a>
+                    </h3>
+                </div>
             </div>
-        </header>
-        
-        <div class="content portfolio main">
-            <div id="main">
-                    <div class="about">
-                        <h1>Portfolio</h1>
-                        <div class="pitem piteml hangman">
-                            <h3>
-                                <a href="#">Hangman</a>
-                            </h3>
-                        </div>
-                        <div class="pitem pitemr rpg">
-                            <h3>
-                                <a href="#">RPG Game</a>
-                            </h3>
-                        </div>
-                        <div class="pitem piteml trivia">
-                            <h3>
-                                <a href="#">Trivia Game</a>
-                            </h3>
-                        </div>
-                        <div class="pitem pitemr rutgers">
-                            <h3>
-                                <a href="#">Rutgers Info Widget</a>
-                            </h3>
-                        </div>
-                        <div class="pitem piteml rockpaper">
-                            <h3>
-                                <a href="#">Rock Paper Scissors</a>
-                            </h3>
-                        </div>
-                    </div>
+            <div class="row">
+                <div class="portcontent left trivia">
+                    <img src="assets/images/1.jpg">
+                    <h3 class="text-center card-title">
+                        <a class="text-white" href="#">Trivia Game</a>
+                    </h3>
+                </div>
+                <div class="portcontent right rutgers">
+                    <img src="assets/images/1.jpg">
+                    <h3 class="text-center card-title">
+                        <a class="text-white" href="#">Rutgers</a>
+                    </h3>
+                </div>
             </div>
-            
-            <div id="sidebar">
-                <div class="connect">
-                    <h2>Connect with Me</h2>
-                    <a href="https://github.com/TonyCenteno" target="_blank"><img src="assets/images/github_logo.jpg"></a>
-                    <a href="https://www.linkedin.com/in/tony-centeno-5a115516/" target="_blank"><img class="linkedin" src="assets/images/linkedin_logo.jpg"></a>
-                    <a href="https://stackoverflow.com/users/9377877/tony" target="_blank"><img src="assets/images/stackoverflow_logo.jpg"></a>
+            <div class="row">
+                <div class="portcontent left rock">
+                    <img src="assets/images/1.jpg">
+                    <h3 class="text-center card-title">
+                        <a class="text-white" href="#">Rock</a>
+                    </h3>
+                </div>
+                <div class="portcontent right">
+                    
                 </div>
             </div>
         </div>
-
-        <footer>
-            <div class="content">
-                <h6>@Copyright 2018 Tony Centeno</h6>
+        <div class="sidebar connect">
+            <div class="title">
+                <h2>Connect With Me</h2>
             </div>
-        </footer>
+            <div class="icons">
+                <a class="icon1" href="https://github.com/TonyCenteno" target="_blank"><img src="assets/images/github_logo.jpg"></a>
+                <a class="icon2" href="https://www.linkedin.com/in/tony-centeno-5a115516/" target="_blank"><img src="assets/images/linkedin_logo.jpg"></a>
+                <a class="icon3" href="https://stackoverflow.com/users/9377877/tony" target="_blank"><img src="assets/images/stackoverflow_logo.jpg"></a>
+            </div>
+        </div>
+    </div>
+    <footer>
+        <div class="container">
+            <h6>@Copyright 2018 Tony Centeno</h6>
+        </div>
+    </footer>
 </body>
 </html>
